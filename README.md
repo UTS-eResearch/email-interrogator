@@ -86,7 +86,7 @@ If you can manage this then go ahead and install it. We have included a sample g
    needed, and adjust the query for the reporting period you're
    interested in (--query)) and replace all the parameters with ones relevant to you. These ones work for me.
    
-      ```python engagement_individual.py outlook.office365.com peter.sefton@uts.edu.au -f "Sent Items" -q "SINCE 01-Dec-2016 BEFORE 01-Jan-2017"  -m  groups.json --ldap  ldap.uts.edu.au --unit-string utsUnitLevel1```
+    ```python engagement_individual.py outlook.office365.com peter.sefton@uts.edu.au -f "Sent Items" -q "SINCE 01-Dec-2016 BEFORE 01-Jan-2017"  -m  groups.json --ldap  ldap.uts.edu.au --unit-string utsUnitLevel1```
 
      The script will write its output into a directory (under ./Output) named for the
     query (-q) parameter, this case: ```Output/SINCE 01-Dec-2016 BEFORE 01-Jan-2017```
@@ -94,7 +94,7 @@ If you can manage this then go ahead and install it. We have included a sample g
 *  When the script has been run for each team member, run this to
    generate a stacked-bar chart:
 
-        ```python engagement_stacked.py Output/SINCE\ 01-Dec-2016\ BEFORE\ 01-Jan-2017/```
+    ```python engagement_stacked.py Output/SINCE\ 01-Dec-2016\ BEFORE\ 01-Jan-2017/```
 
 	The script will write its output as images into the directory
     passed on the commandline.
