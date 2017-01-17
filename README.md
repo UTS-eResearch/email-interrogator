@@ -19,7 +19,7 @@ with the -pg flags to hide their real names.
 
 From this we can see that there is one group which we talk to a *lot*
 more than the others, and one staff member in particular who emails
-with members of that group.
+a lot with members of that group.
 
 ![Example chart](./example.png)
 
@@ -30,7 +30,7 @@ and external eResearch organisations.
 
 ## Audience
 
-This is an alpha-quality script with *NO TESTS* for python
+This is an alpha-quality script with *NO TESTS*, for Python
 programmers or sys admins only. It *could* be turned into an easy-to-use
 web service, but right now it's commandline, and likely to be flaky.
 
@@ -46,13 +46,9 @@ email addresses. Turns out that at UTS there is a
 that sets out how to connect to LDAP using the commandline tool
 ldapsearch. Using hints found on that page, for how to query the UTS
 LDAP server we can work out that the LDAP attribute we're interested
-in (which tells us the division the user works for) is
-```utsUnitLevel1```.
+in (which tells us the division the user works for) is utsUnitLevel1.
 
-If you can manage this then go ahead and install it.
-
-We have included a sample groups.json file for you to hack away at.
-
+If you can manage this then go ahead and install it. We have included a sample groups.json file for you to hack away at.
 
 ## Install
 
