@@ -55,12 +55,17 @@ If you can manage this then go ahead and install it. We have included a sample g
 * Set up a virtual environment for python 3:
 
      ```mkdir ~/virtualenvs```
+     
      ```pyvenv ~/virtualenvs/email-interrogator```
+     
 	 ```. ~/virtualenvs/email-interrogator```
 
 * Clone the code and install
+
     ``` git clone  https://github.com/UTS-eResearch/email-interrogator.git```
-	```cd email-interrogator```
+    
+     ```cd email-interrogator```
+     
      ```pip3 install  .```
 
 
